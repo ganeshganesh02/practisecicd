@@ -20,7 +20,7 @@ steps:
 - task: UiPathPack@5
   inputs:
     versionType: 'AutoVersion'
-    projectJsonPath: '$(Build.SourcesDirectory)'
+    projectJsonPath: '$(Build.SourcesDirectory)\UiPath\practise_cicd'
     outputType: 'Process'
     orchestratorConnection: 'practise'
     outputPath: '$(Build.ArtifactStagingDirectory)\Output'
